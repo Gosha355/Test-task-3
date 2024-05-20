@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  height: 1080px;
+}
+.main_page__title {
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    border-bottom: 1px solid;
+    border-color: #414144;
+    height: 44px;
+    align-items: center;
+    display: flex;
+    background-color: #27272A;
+    justify-content: space-between;
+}
+.main_page {
+    background-color: #202124;
+    flex-direction: row;
+    width: 100%;
+    border-collapse: collapse;
+}
+.main_page__chapter {
+  display: flex;
+  justify-content: space-between;
+  color: #A1A1AA;
+  margin-left: 10px;
+  padding-top: 11px;
+  border-bottom: 1px solid;
+  border-color: #414144;
+  padding-bottom: 12px;
+}
+
+.main_page__job {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.main_page__caption {
+  font-weight: 400;
+}
+.main_page__table {
+width: 100%;
+margin-left: 10px;
+}
+.main_page__head {
+  color: #A1A1AA;
+}
+.main_page__name {
+  color: white;
+}
+.main_page__line {
+  border-top: 1px solid;
+  border-color: #414144;
+  height: 60px;
+}
+.main_page__buttons {
+  background-color: #414144;
+  border-radius: 6px;
+  display: flex;
+  width: 55px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  z-index: 10;
+}
+.main_page__button_delete {
+cursor: pointer;
+border-radius: 16px;
+padding: 0px 4px ;
+}
+a.main_page__button_delete:hover { 
+  background: rgba(0,0,0,0);
+	color: #A1A1AA;
+	box-shadow: inset 0 0 0 16px rgba(161, 161,	170, 0.15)
+}
+a {
+  transition: all 500ms ease
+}
+
+.main_page__button_add {
+  cursor: pointer;
+  border-radius: 16px;
+  display: flex;
+  margin-right: 6px;
+}
+a.main_page__button_add:hover { 
+  background: rgba(0,0,0,0);
+	color: #A1A1AA;
+	box-shadow: inset 0 0 0 16px rgba(161, 161,	170, 0.15)
+}
+
+table {
+  border-spacing: 10px;
+}
+.child_page__line {
+  background-color: #414144;
+  border-radius: 6px;
+  display: flex;
+  width: 55px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.child_page__line::before {
+  content: " ";
+  background: white;
+  width: 1px;
+  height: 60px;
+  left: -14px;
+  top: -45px;
+  z-index: 1;
+  position: absolute;
+}
+.child_page__left {
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+  
+}
+.child_page__none {
+  display: none;
+}
+
+.child_page__left::before  {
+  content: " ";
+  background: white;
+  width: 14px;
+  height: 1px;
+  left: -14px;
+  top: 14px;
+  position: absolute;
+}
+.main_page__button_parent {
+  margin-right: 20px;
+  color: white;
+  background-color: #414144;
+  cursor: pointer;
+}

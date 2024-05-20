@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    background-color: #27272A;
+    list-style-type: none;
+    padding-top: 13px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #414144;
+    
+}
+.header_wrapp {
+    display: flex;
+    color: #FFFFFF;
+}
+.header_wrapp__viewing {
+    margin-right: 28px;
+}

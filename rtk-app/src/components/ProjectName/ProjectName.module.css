@@ -1,0 +1,46 @@
+.project_name__choice {
+display: flex;
+flex-direction: column;
+line-height: 1px;
+border-bottom: 1px solid;
+border-color: #414144;
+padding-left: 20px;
+height: 44px;
+color: #A1A1AA;
+    
+}
+.project_name__abbreviation {
+    flex-wrap: wrap;
+    font-size: 14px;
+    display: flex;
+}
+.project_name__full {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.project_name__part {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    row-gap: 16px;
+  
+
+}
+.project_name {
+    background-color: #27272A;
+    color: white;
+    width: 234px;
+    border-right: 1px solid;
+    border-color: #414144;
+}
+.project_name__list {
+    padding-left: 20px;
+    margin-top: 8px;
+    width: 234px;
+}
+.project_name__item {
+    display: flex;
+    align-items: center;
+}
